@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FADADD"
+    android:gravity="center_horizontal">
+
+<TextView
+android:id="@+id/title"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Caloric"
+android:textSize="24sp"
+android:textColor="#800080"
+android:fontFamily="@font/poppins_bold"
+android:layout_marginBottom="24dp"
+android:letterSpacing="0.1"
+android:shadowColor="#E6A8D7"
+android:shadowDx="2"
+android:shadowDy="2"
+android:shadowRadius="3" />
+
+<TextView
+android:id="@+id/butterText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Butter: 100 g"
+android:textSize="18sp"
+android:textColor="#6A0DAD"
+android:fontFamily="@font/poppins_regular"
+android:layout_marginTop="16dp" />
+
+<SeekBar
+android:id="@+id/butterSeekBar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:max="200"
+android:progressTint="#D080C7"
+android:thumbTint="#800080" />
+
+<TextView
+android:id="@+id/sugarText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Sugar: 100 g"
+android:textSize="18sp"
+android:textColor="#6A0DAD"
+android:fontFamily="@font/poppins_regular"
+android:layout_marginTop="16dp" />
+
+<SeekBar
+android:id="@+id/sugarSeekBar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:max="200"
+android:progressTint="#D080C7"
+android:thumbTint="#800080" />
+
+<TextView
+android:id="@+id/flourText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Flour: 200 g"
+android:textSize="18sp"
+android:textColor="#6A0DAD"
+android:fontFamily="@font/poppins_regular"
+android:layout_marginTop="16dp" />
+
+<SeekBar
+android:id="@+id/flourSeekBar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:max="400"
+android:progressTint="#D080C7"
+android:thumbTint="#800080" />
+
+<TextView
+android:id="@+id/caloriesText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Total Calories: 0 kcal"
+android:textSize="20sp"
+android:textColor="#800080"
+android:fontFamily="@font/poppins_semi_bold"
+android:layout_marginTop="24dp"
+android:letterSpacing="0.05"
+android:shadowColor="#E6A8D7"
+android:shadowDx="2"
+android:shadowDy="2"
+android:shadowRadius="3" />
+    </LinearLayout>

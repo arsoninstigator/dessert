@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_pink">#FADADD</color>
+    <color name="text_purple">#800080</color>
+    <color name="slider_progress">#D080C7</color>
+    <color name="slider_thumb">#800080</color>
+    <color name="shadow_pink">#E6A8D7</color>
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <color name="black">#000000</color>
+</resources>
