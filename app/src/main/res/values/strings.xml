@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Caloric</string>
-    <string name="butter_label">Butter: %1$d g</string>
-    <string name="sugar_label">Sugar: %1$d g</string>
-    <string name="flour_label">Flour: %1$d g</string>
-    <string name="calories_label">Total Calories: %1$d kcal</string>
 </resources>
